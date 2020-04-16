@@ -1,8 +1,6 @@
 /* Navbar  */
 .navbar {
     position: relative;
-    background-color: black;
-    opacity: 0.7;
     z-index: 1;
 }
 
@@ -167,13 +165,18 @@ footer {
 
 footer p {
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
 
 
 /* Desktop version */
 @media (min-width: 992px) {
+
+    .navbar {
+        background-color: black;
+        opacity: 0.7;
+    }
 
     .navbar-brand,
     .nav-link {
